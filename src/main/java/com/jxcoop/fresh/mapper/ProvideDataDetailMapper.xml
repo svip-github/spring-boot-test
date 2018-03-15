@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxcoop.fresh.mapper.ProvideDataDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jxcoop.fresh.entity.ProvideDataDetail">
+        <id column="id" property="id" />
+        <result column="data_id" property="dataId" />
+        <result column="goods_specs_id" property="goodsSpecsId" />
+        <result column="goods_name" property="goodsName" />
+        <result column="spec_info" property="specInfo" />
+        <result column="real_num" property="realNum" />
+        <result column="in_house_num" property="inHouseNum" />
+        <result column="approval_num" property="approvalNum" />
+        <result column="buy_price" property="buyPrice" />
+        <result column="sum_price" property="sumPrice" />
+        <result column="memo" property="memo" />
+        <result column="type" property="type" />
+        <result column="user_id" property="userId" />
+        <result column="user_name" property="userName" />
+        <result column="check_time" property="checkTime" />
+    </resultMap>
+
+</mapper>

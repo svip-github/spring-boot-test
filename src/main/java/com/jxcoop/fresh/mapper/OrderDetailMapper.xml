@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxcoop.fresh.mapper.OrderDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jxcoop.fresh.entity.OrderDetail">
+        <id column="id" property="id" />
+        <result column="order_sn" property="orderSn" />
+        <result column="goods_id" property="goodsId" />
+        <result column="goods_spec_id" property="goodsSpecId" />
+        <result column="spec_info" property="specInfo" />
+        <result column="goods_name" property="goodsName" />
+        <result column="goods_spec_name" property="goodsSpecName" />
+        <result column="price" property="price" />
+        <result column="unit" property="unit" />
+        <result column="buy_price" property="buyPrice" />
+        <result column="stand_price" property="standPrice" />
+        <result column="order_num" property="orderNum" />
+        <result column="real_buy_num" property="realBuyNum" />
+        <result column="provide_num" property="provideNum" />
+        <result column="send_num" property="sendNum" />
+        <result column="customer_num" property="customerNum" />
+        <result column="provide_id" property="provideId" />
+        <result column="appoint_time" property="appointTime" />
+        <result column="status" property="status" />
+        <result column="type" property="type" />
+        <result column="memo" property="memo" />
+        <result column="order_time" property="orderTime" />
+        <result column="customer_id" property="customerId" />
+        <result column="company_id" property="companyId" />
+        <result column="order_status" property="orderStatus" />
+        <result column="is_back" property="isBack" />
+        <result column="create_time" property="createTime" />
+        <result column="goods_spec_img" property="goodsSpecImg" />
+    </resultMap>
+
+</mapper>

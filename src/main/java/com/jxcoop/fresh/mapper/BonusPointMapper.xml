@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxcoop.fresh.mapper.BonusPointMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jxcoop.fresh.entity.BonusPoint">
+        <id column="id" property="id" />
+        <result column="customer_id" property="customerId" />
+        <result column="order_sn" property="orderSn" />
+        <result column="type" property="type" />
+        <result column="bonus_point" property="bonusPoint" />
+        <result column="memo" property="memo" />
+        <result column="time" property="time" />
+        <result column="status" property="status" />
+        <result column="update_time" property="updateTime" />
+        <result column="child_id" property="childId" />
+    </resultMap>
+
+</mapper>

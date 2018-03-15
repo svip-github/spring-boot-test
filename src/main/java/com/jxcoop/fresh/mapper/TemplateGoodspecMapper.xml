@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxcoop.fresh.mapper.TemplateGoodspecMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jxcoop.fresh.entity.TemplateGoodspec">
+        <id column="id" property="id" />
+        <result column="template_id" property="templateId" />
+        <result column="goods_id" property="goodsId" />
+        <result column="goods_spec_id" property="goodsSpecId" />
+        <result column="sale_price" property="salePrice" />
+        <result column="goods_name" property="goodsName" />
+        <result column="unit" property="unit" />
+        <result column="spec_info" property="specInfo" />
+        <result column="rate" property="rate" />
+        <result column="type" property="type" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxcoop.fresh.mapper.GoodsSpecMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jxcoop.fresh.entity.GoodsSpec">
+        <id column="id" property="id" />
+        <result column="goods_id" property="goodsId" />
+        <result column="goods_name" property="goodsName" />
+        <result column="spec_base" property="specBase" />
+        <result column="spec_info" property="specInfo" />
+        <result column="spec_name" property="specName" />
+        <result column="spec_goods_spec" property="specGoodsSpec" />
+        <result column="spec_goods_img" property="specGoodsImg" />
+        <result column="goods_spell" property="goodsSpell" />
+        <result column="low_price" property="lowPrice" />
+        <result column="high_price" property="highPrice" />
+        <result column="price" property="price" />
+        <result column="pre_price" property="prePrice" />
+        <result column="buy_price" property="buyPrice" />
+        <result column="pre_buy_price" property="preBuyPrice" />
+        <result column="price_time" property="priceTime" />
+        <result column="profit" property="profit" />
+        <result column="loss" property="loss" />
+        <result column="tax" property="tax" />
+        <result column="sharePrice" property="sharePrice" />
+        <result column="unit" property="unit" />
+        <result column="del" property="del" />
+        <result column="class_id" property="classId" />
+        <result column="keyvalue" property="keyvalue" />
+        <result column="activity_type" property="activityType" />
+    </resultMap>
+
+</mapper>

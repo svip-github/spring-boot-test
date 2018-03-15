@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxcoop.fresh.mapper.GoodsHistory2018Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jxcoop.fresh.entity.GoodsHistory2018">
+        <id column="id" property="id" />
+        <result column="goods_id" property="goodsId" />
+        <result column="goods_spec_id" property="goodsSpecId" />
+        <result column="price_time" property="priceTime" />
+        <result column="buy_price" property="buyPrice" />
+        <result column="sale_price" property="salePrice" />
+        <result column="now_price" property="nowPrice" />
+    </resultMap>
+
+</mapper>

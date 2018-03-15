@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxcoop.fresh.mapper.SorterRecordMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jxcoop.fresh.entity.SorterRecord">
+        <id column="id" property="id" />
+        <result column="order_sn" property="orderSn" />
+        <result column="order_detail_id" property="orderDetailId" />
+        <result column="goods_spec_id" property="goodsSpecId" />
+        <result column="goods_name" property="goodsName" />
+        <result column="spec_info" property="specInfo" />
+        <result column="unit" property="unit" />
+        <result column="sorter_num" property="sorterNum" />
+        <result column="sorter_time" property="sorterTime" />
+        <result column="user_id" property="userId" />
+        <result column="user_name" property="userName" />
+        <result column="dc_id" property="dcId" />
+    </resultMap>
+
+</mapper>

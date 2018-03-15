@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxcoop.fresh.mapper.CommisionConfigMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jxcoop.fresh.entity.CommisionConfig">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="reward_type" property="rewardType" />
+        <result column="type" property="type" />
+        <result column="b_bonus_point" property="bBonusPoint" />
+        <result column="b_commission" property="bCommission" />
+        <result column="c_bonus_point" property="cBonusPoint" />
+        <result column="c_commission" property="cCommission" />
+        <result column="status" property="status" />
+    </resultMap>
+
+</mapper>

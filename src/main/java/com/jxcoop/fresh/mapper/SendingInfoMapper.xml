@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxcoop.fresh.mapper.SendingInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jxcoop.fresh.entity.SendingInfo">
+        <id column="id" property="id" />
+        <result column="order_sn" property="orderSn" />
+        <result column="order_price" property="orderPrice" />
+        <result column="ratio" property="ratio" />
+        <result column="service_price" property="servicePrice" />
+        <result column="user_id" property="userId" />
+        <result column="user_name" property="userName" />
+        <result column="sending_time" property="sendingTime" />
+        <result column="driver_id" property="driverId" />
+        <result column="driver_name" property="driverName" />
+        <result column="is_print" property="isPrint" />
+        <result column="status" property="status" />
+    </resultMap>
+
+</mapper>

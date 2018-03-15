@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxcoop.fresh.mapper.OrderPaydetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jxcoop.fresh.entity.OrderPaydetail">
+        <id column="id" property="id" />
+        <result column="trade_no" property="tradeNo" />
+        <result column="trade_type" property="tradeType" />
+        <result column="trade_desc" property="tradeDesc" />
+        <result column="order_no" property="orderNo" />
+        <result column="member_id" property="memberId" />
+        <result column="trade_paytype" property="tradePaytype" />
+        <result column="create_time" property="createTime" />
+        <result column="trade_amount" property="tradeAmount" />
+        <result column="trade_payed_info" property="tradePayedInfo" />
+        <result column="trade_payed_amount" property="tradePayedAmount" />
+        <result column="trade_payed_time" property="tradePayedTime" />
+        <result column="state" property="state" />
+        <result column="prepay_id" property="prepayId" />
+        <result column="prepay_time" property="prepayTime" />
+        <result column="paySign" property="paySign" />
+        <result column="appid" property="appid" />
+        <result column="nonceStr" property="nonceStr" />
+        <result column="timeStamp" property="timeStamp" />
+    </resultMap>
+
+</mapper>

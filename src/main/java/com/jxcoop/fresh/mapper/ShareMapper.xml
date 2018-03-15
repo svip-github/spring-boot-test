@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxcoop.fresh.mapper.ShareMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jxcoop.fresh.entity.Share">
+        <id column="id" property="id" />
+        <result column="proxy_id" property="proxyId" />
+        <result column="time" property="time" />
+        <result column="url" property="url" />
+        <result column="urlName" property="urlName" />
+    </resultMap>
+
+</mapper>

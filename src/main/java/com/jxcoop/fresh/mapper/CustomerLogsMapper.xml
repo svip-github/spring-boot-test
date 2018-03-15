@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxcoop.fresh.mapper.CustomerLogsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jxcoop.fresh.entity.CustomerLogs">
+        <id column="id" property="id" />
+        <result column="company_id" property="companyId" />
+        <result column="customer_id" property="customerId" />
+        <result column="customer_name" property="customerName" />
+        <result column="type_flag" property="typeFlag" />
+        <result column="content" property="content" />
+        <result column="modi_time" property="modiTime" />
+        <result column="source_ip" property="sourceIp" />
+        <result column="access_url" property="accessUrl" />
+    </resultMap>
+
+</mapper>
